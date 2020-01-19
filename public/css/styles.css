@@ -1,0 +1,42 @@
+*{box-sizing: border-box;}
+html{font-family: 'Cabin Condensed', sans-serif;}
+body{background-color: #000; margin: 0px; color: #fff; }
+header{
+    display: flex; 
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+header a{color: #fff; text-decoration: none;}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/*HEADER*/
+#logo-link{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.scroll-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .25rem;
+    width: 50px;
+    height: 50px;
+    background-color: #aaa;
+    border-radius:8px;
+}
+.scroll-icon.active, .scroll-icon:hover{background-color: #fff}
+.scroll-icon img{width: 100%}

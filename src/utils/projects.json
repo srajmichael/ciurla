@@ -1,0 +1,38 @@
+[
+    {
+        "title":"Kaia Bowls",
+        "icon":"darth.png",
+        "description":"Description number 1",
+        "mainImg":"darth.png",
+        "thumbnail":"darth.png"
+    },
+    {
+        "title":"Kaia Bowls2",
+        "icon":"darth.png",
+        "description":"Description number 2",
+        "mainImg":"darth.png",
+        "thumbnail":"darth.png"
+    },
+    {
+        "title":"Kaia Bowls3",
+        "icon":"darth.png",
+        "description":"Description number 3",
+        "mainImg":"darth.png",
+        "thumbnail":"darth.png"
+    },
+    {
+        "title":"Kaia Bowls4",
+        "icon":"darth.png",
+        "description":"Description number 4",
+        "mainImg":"darth.png",
+        "thumbnail":"darth.png"
+    },
+    {
+        "title":"Kaia Bowl5",
+        "icon":"darth.png",
+        "description":"Description number 5",
+        "mainImg":"darth.png",
+        "thumbnail":"darth.png"
+    }
+
+]

@@ -1,6 +1,7 @@
 const path = require('path');
 const express = require('express');
-const hbs = require('hbs')
+const hbs = require('hbs');
+const projects = require('./utils/projects');
 
 const app = express();
 const port = process.env.PORT || 3000; 
@@ -19,7 +20,20 @@ app.use(express.static(publicRoot));
 
 
 
+app.get('', (req,res)=>{
+    res.render('index', {
+        title: 'Nate Ciurla',
+        projects: projects.getProjects()
+    })
+})
 
+app.get('/projects', (req,res)=>{
+    res.send(
+        {
+            projects: projects.getProjects()
+        }    
+    )
+})
 
 
 app.listen(port, ()=>{

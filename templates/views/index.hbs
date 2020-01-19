@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    {{>head}}
+<body>
+    {{>header}}
+    <section class='container'>
+        {{#each projects as |project|}}
+        <a href="#" class="scroll-icon"><img src="/images/{{project.icon}}"></a>
+        {{/each}}
+    </section>
+
+
+    <script src="/js/app.js" ></script>
+</body>
+</html>
